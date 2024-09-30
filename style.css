@@ -6,7 +6,7 @@ html {
 body {
     min-width: 320px;
     font-family: CiscoSans, Arial, sans-serif;
-    color: #424445;
+    color: #0d274d;
     font-weight: 300;
     text-rendering: optimizeLegibility;
     background: #fff;
@@ -43,7 +43,7 @@ h2,
 h3,
 p {
     font-weight: 300;
-    color: #424445;
+    color: #0d274d;
     /* z-index: 10; */
 }
 .flex-brew {
