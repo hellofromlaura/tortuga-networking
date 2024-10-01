@@ -1,9 +1,9 @@
-body,
+body.brew,
 html {
     overflow-x: hidden;
 }
 
-body {
+body.brew {
     min-width: 320px;
     font-family: CiscoSans, Arial, sans-serif;
     color: #424445;
@@ -13,35 +13,28 @@ body {
     margin: 0px;
 }
 
-h1 {
+.brew h1 {
     font-size: 5vw;
     line-height: 5.3vw;
     margin: 4.7% 0px;
     text-align: center;
 }
 
-h2 {
+.brew h2 {
     font-size: 3.1vw;
     line-height: 4.1vw;
     margin: 0px;
 }
 
-h3 {
-    font-size: calc(18px + (38 - 18) * ((100vw - 300px) / (1600 - 300)));
-    line-height: calc(1.2rem + (10 - 4) * ((100vw - 300px) / (1600 - 300)));
-    margin: 10px 0px;
-}
-
-p {
+.brew p {
     font-size: 2.03vw;
     line-height: 2.2vw;
     margin: 0px;
 }
 
-h1,
-h2,
-h3,
-p {
+.brew h1,
+.brew h2,
+.brew p {
     font-weight: 300;
     color: #424445;
     /* z-index: 10; */
@@ -49,94 +42,94 @@ p {
 .flex-brew {
     display: flex;
 }
-.white {
+.brew .white {
     color: #fff;
 }
-.dark-bg {
+.brew .dark-bg {
     margin-top: 8.5%;
     padding: 2.1%;
     background-color: #0F274D;
     text-align: center;
 }
-.grey-bg {
+.brew .grey-bg {
     background-color: #E2E2E2;
     padding: 2.3%;
     text-align: center;
 }
-.text-1 {
+.brew .text-1 {
     margin-top: 38.5%
 }
-.text-2 {
+.brew .text-2 {
     text-align: center;
     margin: 9% 0;
 }
-.text-3 {
+.brew .text-3 {
     text-align: center;
     margin: 38.9% 0;
 }
-.text-4 {
+.brew .text-4 {
     text-align: end;
     margin: 56% 11% 35.4% 0;
 }
-.text-5 {
+.brew .text-5 {
     margin: 0 0 19.4% 11%;
 }
-.text-6 {
+.brew .text-6 {
     text-align: center;
     margin: 8.7% 0;
 }
-.text-7 {
+.brew .text-7 {
     margin: 51.9% 0% 19.5% 56.8%;
 }
-.text-8 {
+.brew .text-8 {
     margin: 19.8% 0% 9.2% 11.1%;
 }
-.text-9 {
+.brew .text-9 {
     margin: 9.9% 0% 19.4% 11%;
 }
-.text-10 {
+.brew .text-10 {
     margin: 0 0 17.5% 57.3%;
 }
-.text-11 {
+.brew .text-11 {
     margin: 18.2% 0% 17.5% 11%;
 }
-.text-12 {
+.brew .text-12 {
     margin: 0 11% 17.5% 0%;
     text-align: end;
 }
-.text-13 {
+.brew .text-13 {
     text-align: center;
     margin: 9.4% 0;
 }
-.text-14 {
+.brew .text-14 {
     margin: 45.9% 20% 8.2%;
     justify-content: space-around;
 }
-.text-14 p {
+.brew .text-14 p {
     text-align: center;
 }
-.text-15 {
+.brew .text-15 {
     padding: 4.3% 0;
 }
-.text-16 {
+.brew .text-16 {
     text-align: center;
     margin: 22.7% 0 0;
 }
-.text-17 {
+.brew .text-17 {
     margin: 6.8% 4.5% 0%;
     justify-content: space-around;
 }
-.text-17 p {
+.brew .text-17 p {
     text-align: center;
 }
-.text-18 {
+.brew .text-18 {
     margin: 11.7% 13.7% 0%;
     justify-content: space-between;
 }
-.text-18 p {
+.brew .text-18 p {
     text-align: center;
 }
-.text-19 {
+.brew .text-19 {
     text-align: center;
     margin: 3% 0 0;
 }
